@@ -1,9 +1,16 @@
 import './App.css';
+import TopBar from './components/TopBar';
+import BackgroundBanner from './components/BackgroundBanner';
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+
+      <TopBar />
+      <BackgroundBanner />
+
     </div>
   );
 }
